@@ -72,3 +72,11 @@ jobs:
             buildd-results/*.changes
             buildd-results/*.buildinfo
           if-no-files-found: error
+          
+      - name: Publish GitHub Release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            buildd-results/*.deb
+            buildd-results/*.ddeb
