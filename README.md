@@ -34,3 +34,13 @@ Fixes a problem with the getprop binary in the flash-bootimage script that chash
 ### droidian-adapt-fix-phosh-brightness-xiaomi-vayu.service
 Sets the brightness to half after Phosh is started since the device is booting with the value of 200 (very low)
 
+
+### Need to look :
+https://github.com/droidian-xiaomi-vayu-lts/adaptation-droidian-xiaomi-vayu-lts-api30/commit/d7f514dcc5c898011f229d5f431d2b585c274a5c  
+https://github.com/droidian-xiaomi-vayu-lts/adaptation-droidian-xiaomi-vayu-lts-api30/commit/a433fb45d0702416a72ed70a454f4b5d14816b5b  
+   
+https://github.com/droidian-xiaomi-vayu-lts/adaptation-droidian-xiaomi-vayu-lts-api30/commit/eb07ab0921df35b5057aa3aac2897bd77d326915  
+
+Seem to be ok :  
+https://github.com/droidian-xiaomi-vayu-lts/adaptation-droidian-xiaomi-vayu-lts-api30/commit/52b06b425fc593449a38f30af28f33a26dc975f8  
+https://github.com/droidian-xiaomi-vayu-lts/adaptation-droidian-xiaomi-vayu-lts-api30/commit/0081e2ebec8d223bf68fe653c75d3ce6a7280930  
